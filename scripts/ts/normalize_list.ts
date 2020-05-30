@@ -50,3 +50,4 @@ const normalizeConversions:Array<any> = [
     { regex: new RegExp('Œ', 'g'), clean: 'OE' },
     { regex: new RegExp('ƒ', 'g'), clean: 'f' }
 ];
+export { normalizeConversions }
